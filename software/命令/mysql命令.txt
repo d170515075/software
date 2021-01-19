@@ -1,0 +1,2 @@
+ÅúÁ¿²åÈë
+insert into user(username,password) select username,password from user;

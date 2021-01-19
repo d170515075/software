@@ -1,0 +1,19 @@
+bt default  //查看宝塔面板默认用户名密码等信息
+ 
+lsof -i:80 //查看指定端口是否开启 如果没反应说明没开启
+
+netstat -aptn //查看正在监听的端口
+
+netstat -nltp //查看正在监听的端口
+
+netstat -nltup //查看UDP正在监听的端口
+
+systemctl status firewalld //查看防火墙状态
+
+systemctl stop firewalld //暂时关闭防火墙
+
+systemctl disable firewalld //永久关闭防火墙
+
+sudo service firewalld start //开启防火墙
+
+systemctl enable firewalld //重启防火墙
