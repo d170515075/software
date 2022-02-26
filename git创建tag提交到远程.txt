@@ -1,0 +1,20 @@
+//初始化
+git init
+//设置git仓库
+git remote add origin git@github.com:xiangzi9626/htmldemo.git
+//重设git仓库
+git remote set-url origin https://gitee.com/xiang/htmldemo
+//添加到本地仓库
+git add .
+//检查添加状态
+git status
+//提交本地仓库
+git commit -m '描述'
+//提交到远程仓库主分支
+git push origin master
+//创建tag
+git tag -a v1.1 -m '说明'
+//提交到远程
+git push origin --tags
+//删除远程Tag
+git push origin --delete tag v3.5
