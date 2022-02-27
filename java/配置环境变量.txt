@@ -1,0 +1,17 @@
+“变量名”：JAVA_HOME
+“变量值”：D:\Program Files\Java\jdk1.8.0_131        你安装的jdk的磁盘路径
+ 
+“变量名”：Path
+“变量值”：%JAVA_HOME%\bin;%JAVA_HOME%\jre\bin; 
+ 
+“变量名”：CLASSPATH 
+“变量值”：.;%JAVA_HOME%\lib;%JAVA_HOME%\lib\tools.jar
+
+注：“变量值”最前面的 .; 不要漏掉。
+
+检查是否安装成功
+检查环境变量搭好了：调出“cmd”检查（Windows+R）
+
+1、输入“java”
+2、输入“javac”
+3、输入“java -version”
