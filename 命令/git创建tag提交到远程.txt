@@ -1,20 +1,30 @@
-//³õÊ¼»¯
+//åˆå§‹åŒ–
 git init
-//ÉèÖÃgit²Ö¿â
+//è®¾ç½®gitä»“åº“
 git remote add origin git@github.com:xiangzi9626/htmldemo.git
-//ÖØÉègit²Ö¿â
+//é‡è®¾gitä»“åº“
 git remote set-url origin https://gitee.com/xiang/htmldemo
-//Ìí¼Óµ½±¾µØ²Ö¿â
+//æ·»åŠ åˆ°æœ¬åœ°ä»“åº“
 git add .
-//¼ì²éÌí¼Ó×´Ì¬
+//æ£€æŸ¥æ·»åŠ çŠ¶æ€
 git status
-//Ìá½»±¾µØ²Ö¿â
-git commit -m 'ÃèÊö'
-//Ìá½»µ½Ô¶³Ì²Ö¿âÖ÷·ÖÖ§
+//æäº¤æœ¬åœ°ä»“åº“
+git commit -m 'æè¿°'
+//æäº¤åˆ°è¿œç¨‹ä»“åº“ä¸»åˆ†æ”¯
 git push origin master
-//´´½¨tag
-git tag -a v1.1 -m 'ËµÃ÷'
-//Ìá½»µ½Ô¶³Ì
+//åˆ›å»ºtag
+git tag -a v1.1 -m 'è¯´æ˜'
+//æäº¤åˆ°è¿œç¨‹
 git push origin --tags
-//É¾³ıÔ¶³ÌTag
+//åˆ é™¤è¿œç¨‹Tag
 git push origin --delete tag v3.5
+//åˆ›å»ºåˆ†æ”¯
+git branch temp
+//æ¨é€åˆ†æ”¯åˆ°è¿œç¨‹ä»“åº“
+git push origin temp:temp
+//åˆ‡æ¢åˆ†æ”¯åˆ°ä¸´æ—¶åˆ†æ”¯
+git checkout temp
+//åˆ é™¤æœ¬åœ°masteråˆ†æ”¯
+git branch -d master
+//åˆ é™¤è¿œç¨‹åˆ†æ”¯ ä¸èƒ½åˆ é™¤è¿œç¨‹å½“å‰åˆ†æ”¯ä¼šæŠ¥é”™
+ git push origin --delete temp
