@@ -1,0 +1,5 @@
+//查询是滞安装firefox
+rpm -qa | grep firefox
+
+//制裁RPM包
+rpm -e RPM包的名称
