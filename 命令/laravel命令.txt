@@ -1,0 +1,10 @@
+//D:\phpStudy\PHPTutorial\WWW
+//进入到index.php的当前目录
+//创建控制器
+php artisan make:controller TestController
+//指定目录创建
+php artisan make:controller user/RegisterController
+//创建中间件
+php artisan make:middleware AdminMiddleware
+//指定目录创建中间件
+php artisan make:middleware admin/AdminMiddleware

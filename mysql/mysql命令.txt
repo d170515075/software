@@ -1,0 +1,5 @@
+批量插入
+insert into user(username,password) select username,password from user;
+
+添加唯一约束
+ALTER TABLE `user` ADD unique(`username`);
